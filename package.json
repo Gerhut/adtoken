@@ -1,0 +1,30 @@
+{
+  "name": "adtoken",
+  "version": "0.0.0",
+  "description": "Azure Active Directory access token toolkit.",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "parcel serve example/index.html",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gerhut/adtoken.git"
+  },
+  "keywords": [
+    "azure",
+    "active",
+    "directory"
+  ],
+  "author": "George Cheng <Gerhut@GMail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gerhut/adtoken/issues"
+  },
+  "homepage": "https://github.com/Gerhut/adtoken#readme",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.3.1",
+    "standard": "^16.0.3",
+    "typescript": "^4.3.5"
+  }
+}
